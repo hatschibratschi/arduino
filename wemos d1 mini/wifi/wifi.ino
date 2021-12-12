@@ -1,14 +1,15 @@
 #include <ESP8266WiFi.h>
-#include "secret.h" // with: #define WIFI_PASSWORD "your_pw"
+#include "secret.h" // file with: #define WIFI_PASSWORD "your_pw"
 
 const char *password = WIFI_PASSWORD;
+const char *ssid = WIFI_SSID;
 
 void setup()
 {
   Serial.begin(115200);
   Serial.println();
 
-  WiFi.begin("HRV_wlan_03", password);
+  WiFi.begin(ssid, password);
 
   Serial.print("Connecting");
   while (WiFi.status() != WL_CONNECTED)
