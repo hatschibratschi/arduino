@@ -9,12 +9,12 @@ void setup() {
   WiFiDrv::pinMode(27, OUTPUT); //define blue pin8
 }
 void loop() {
-  WiFiDrv::analogWrite(25, 50);
-  WiFiDrv::analogWrite(26, 0);
-  WiFiDrv::analogWrite(27, 0);
-  delay(1000);
   WiFiDrv::analogWrite(25, 0);
   WiFiDrv::analogWrite(26, 50);
+  WiFiDrv::analogWrite(27, 0);
+  delay(1000);
+  WiFiDrv::analogWrite(25, 50);
+  WiFiDrv::analogWrite(26, 0);
   WiFiDrv::analogWrite(27, 0);
   delay(1000);
   WiFiDrv::analogWrite(25, 0);
