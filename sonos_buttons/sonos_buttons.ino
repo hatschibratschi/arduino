@@ -1,11 +1,16 @@
+// i use ARDUINO NANO 33 IoT
+// change BOARD !and! PORT
+
 #include <SPI.h>
 #include <WiFiNINA.h>
 #include <ArduinoHttpClient.h>
 
-#include "secret.h" // file with: #define WIFI_PASSWORD "your_pw"
 #include "wifi_helper.h"
-
-// for NANO 33 IoT
+#include "secret.h" 
+/* file with:
+#define WIFI_SSID "your_ssid" 
+#define WIFI_PASSWORD "your_pw"
+*/
 
 const int button_1 = 2; // digital pin 2 ...
 const int button_2 = 3;
