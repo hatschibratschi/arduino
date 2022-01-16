@@ -27,4 +27,4 @@ touch: cannot touch '/root/.config/mimeapps.list': No such file or directory
 done!
 ```
 
-After that Arduino-Software should be in your PIs programe-menu.
+After that Arduino-Software should be in your PIs start-menu.
