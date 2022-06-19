@@ -1,9 +1,13 @@
 # arduino
 my arduino projects
 
+# arduino IDE
+- cmd-u : upload script
+- cmd-r : compile script
+
 # elegoo uno r3 on raspberry pi
 download old versions from https://www.arduino.cc/en/Main/OldSoftwareReleases#1.0.x
-eg 1.8.9 ARM32bit! 
+eg 1.8.9 ARM32bit!
 
 untar with
 `tar -xf <file>`
@@ -13,7 +17,7 @@ move unzipped dir to /opt
 
 complete installation with
 `sudo /opt/arduino-1.8.9/install.sh`
- 
+
 ```
 Adding desktop shortcut, menu item and file associations for Arduino IDE...
 rm: cannot remove '/usr/local/bin/arduino': No such file or directory
