@@ -14,3 +14,6 @@ in folder blink
 
 ## test wifi connection
 in folder wifi
+
+# HTTPClient
+https://github.com/esp8266/Arduino/tree/master/libraries/ESP8266HTTPClient/examples

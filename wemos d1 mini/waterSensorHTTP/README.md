@@ -6,5 +6,5 @@
 
 Value of signal is between 0 (no water) and 521
 
-# Send data
-data is sent to a rest-server
+# data
+data will be shown on built in webserver
