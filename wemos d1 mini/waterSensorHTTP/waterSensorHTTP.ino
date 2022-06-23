@@ -39,7 +39,7 @@ void loop() {
   //Serial.print("sensor: ");
   //Serial.println(value);
 
-  waitMs = (30 * 1000) - 50; // 30 seconds
+  waitMs = (10 * 60 * 1000) - 50; // 5 min
   
   digitalWrite(LED_BUILTIN, HIGH);   // turn the LED off (HIGH is the voltage level)
   delay(waitMs);                       // wait for a second
