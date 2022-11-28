@@ -74,8 +74,8 @@ SSD1306Wire display(0x3c, SDA, SCL);   // ADDRESS, SDA, SCL  -  SDA and SCL usua
 
 OLEDDisplayUi ui ( &display );
 
-int screenW = 64;
-int screenH = 48;
+int screenW = 48;
+int screenH = 64;
 int clockCenterX = screenW / 2;
 int clockCenterY = ((screenH - 16) / 2) + 16; // top yellow part is 16 px height
 int clockRadius = 23;
