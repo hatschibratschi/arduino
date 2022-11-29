@@ -5,7 +5,7 @@ Paste https://arduino.esp8266.com/stable/package_esp8266com_index.json into addi
 - Toos - Board: "Arduino/Genuino Uno" - Boards Manager ...
 - Search for "ESP8266" and install
 - select board: Tools - LOLIN(WEMOS) d1 R2 & mini
-- select Port: /dev/cu.usbserial
+- select Port: /dev/cu.usbserial or /dev/cu.usbserial-14210 ...
 
 Infos from https://www.teachmemicro.com/getting-started-wemos-d1-mini/
 

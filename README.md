@@ -1,6 +1,12 @@
 # arduino
 my arduino projects
 
+# check new ide-version
+https://www.arduino.cc/en/software
+
+# update libraries
+got to ... manage libraries shift-cmd-i and update used libs
+
 # arduino IDE
 - cmd-u : upload script
 - cmd-r : compile script
@@ -32,3 +38,4 @@ done!
 ```
 
 After that Arduino-Software should be in your PIs start-menu.
+
