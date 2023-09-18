@@ -26,11 +26,11 @@ const char *password = WIFI_PASSWORD;
 const int station_array_size = 3;
 
 // string array is station_name, station_url, station_image (does not work :-(  )
-String oe1[station_array_size] = { "Österreich 1", "/play_favourite_radio_station/%c3%96sterreich%201", "" };
-String soho_radio[station_array_size] = { "Soho Radio", "/play_favourite_radio_station/Soho%20Radio", "" };
-String latte_miele[station_array_size] = { "Radio LatteMiele", "/play_favourite_radio_station/Radio%20LatteMiele", "" };
-String bbc6[station_array_size] = { "BBC Radio 6 Music", "/play_favourite_radio_station/BBC%20Radio%206%20Music", "" };
-String dlf[station_array_size] = { "Deutschlandfunk", "/play_favourite_radio_station/Deutschlandfunk", "" };
+String oe1[station_array_size] = { "Österreich 1", "/play_favourite_radio_station/MyOe1", "" };
+String soho_radio[station_array_size] = { "Soho Radio", "/play_favourite_radio_station/MySohoRadioMusic", "" };
+String latte_miele[station_array_size] = { "Radio LatteMiele", "/play_favourite_radio_station/MyLatteMiele", "" };
+String bbc6[station_array_size] = { "BBC Radio 6 Music", "/play_favourite_radio_station/MyBBC6", "" };
+String dlf[station_array_size] = { "Deutschlandfunk", "/play_favourite_radio_station/MyDLF", "" };
 
 int status = WL_IDLE_STATUS;
 
