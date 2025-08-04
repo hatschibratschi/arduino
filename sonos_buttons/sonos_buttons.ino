@@ -26,11 +26,11 @@ const char *password = WIFI_PASSWORD;
 const int station_array_size = 3;
 
 // string array is station_name, station_url, station_image (does not work :-(  )
-String oe1[station_array_size] = { "Österreich 1", "/play_favourite_radio_station/MyOe1", "" };
-String soho_radio[station_array_size] = { "Soho Radio", "/play_favourite_radio_station/MySohoRadioMusic", "" };
-String latte_miele[station_array_size] = { "Radio LatteMiele", "/play_favourite_radio_station/MyLatteMiele", "" };
-String bbc6[station_array_size] = { "BBC Radio 6 Music", "/play_favourite_radio_station/MyBBC6", "" };
-String dlf[station_array_size] = { "Deutschlandfunk", "/play_favourite_radio_station/MyDLF", "" };
+String oe1[station_array_size] = { "Österreich 1", "/play_fav/MyOe1", "" };
+String soho_radio[station_array_size] = { "Soho Radio", "/play_fav/MySohoRadioMusic", "" };
+String latte_miele[station_array_size] = { "Radio LatteMiele", "/play_fav/MyLatteMiele", "" };
+String brum[station_array_size] = { "BrumRadio", "/play_fav/MyBrum", "" };
+String dlf[station_array_size] = { "Deutschlandfunk", "/play_fav/MyDLF", "" };
 
 int status = WL_IDLE_STATUS;
 
@@ -88,7 +88,7 @@ void loop() {
   if (digitalRead(button_4) == 0) {
     Serial.println("button 4 pressed");
     digitalWrite(ledPin, HIGH);
-    web_request("/" + speaker, bbc6[1], client);
+    web_request("/" + speaker, brum[1], client);
   }
   if (digitalRead(button_5) == 0) {
     Serial.println("button 5 pressed");
